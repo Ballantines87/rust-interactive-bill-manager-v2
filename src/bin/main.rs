@@ -3,11 +3,6 @@ use std::{collections::HashMap};
 use managerlib::{bill::Bill, menu::MenuOptions, utils::get_user_input};
 
 
-
-
-
-
-
 fn main() {
     let mut hash_map: HashMap<i32, Bill> = HashMap::new();
     loop {
