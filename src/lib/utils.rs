@@ -1,8 +1,5 @@
 use std::io::stdin;
 
-
-
-
 pub fn get_user_input() -> Option<String> {
     let mut buffer = String::from("");
     while stdin().read_line(&mut buffer).is_err() {
